@@ -1,5 +1,4 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
 
 import '../common/color_extension.dart';
 
@@ -26,7 +25,7 @@ class SettingSwitchRow extends StatelessWidget {
                   fontWeight: FontWeight.w700),
             ),
             CupertinoSwitch(
-              activeColor: TColor.primary,
+              activeTrackColor: TColor.primary,
               value: tObj["value"] == "true" , onChanged: onChanged)
           ],
         ),

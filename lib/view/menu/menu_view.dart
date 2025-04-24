@@ -3,14 +3,12 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:workout_fitness/view/home/home_view.dart';
-import 'package:workout_fitness/view/meal_plan/meal_plan_view.dart';
 import 'package:workout_fitness/view/menu/yoga_view.dart';
 import 'package:workout_fitness/view/settings/setting_view.dart';
 
 import '../../common/color_extension.dart';
 import '../../common_widget/menu_cell.dart';
 import '../../common_widget/plan_row.dart';
-import '../exercise/exercise_view.dart';
 import '../exercise/exercise_view_2.dart';
 import '../meal_plan/meal_plan_view_2.dart';
 import '../running/running_view.dart';
@@ -110,7 +108,7 @@ class _MenuViewState extends State<MenuView> {
                     padding: const EdgeInsets.only(left: 25),
                     child: Column(
                       children: [
-                        Container(
+                        SizedBox(
                           height: kTextTabBarHeight,
                           child: Row(
                             children: [
@@ -170,7 +168,7 @@ class _MenuViewState extends State<MenuView> {
                         const SizedBox(
                           height: 15,
                         ),
-                        Container(
+                        SizedBox(
                           height: kTextTabBarHeight,
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -275,7 +273,7 @@ class _MenuViewState extends State<MenuView> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             mainAxisSize: MainAxisSize.min,
                             children: [
-                              Text("Code For Any",
+                              Text("Rohit",
                                   style: TextStyle(
                                       fontSize: 20,
                                       color: TColor.white,

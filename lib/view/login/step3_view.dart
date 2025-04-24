@@ -99,7 +99,7 @@ class _Step3ViewState extends State<Step3View> {
                           ),
                         ),
                         CupertinoSwitch(
-                            activeColor: TColor.primary,
+                            activeTrackColor: TColor.primary,
                             value: isAppleHealth,
                             onChanged: (newVal) {
                               setState(() {

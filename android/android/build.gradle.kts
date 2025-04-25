@@ -19,6 +19,7 @@ subprojects {
 tasks.register<Delete>("clean") {
     delete(rootProject.layout.buildDirectory)
 }
+<<<<<<< HEAD
 C
 PS D:\Motion AI> ollama --version
 ollama version is 0.6.6
@@ -41,3 +42,6 @@ at node:internal/main/run_main_module:36:49 {
 Node.js v22.14.0
 PS D:\Motion AI>
 :\Users\Rohit\AppData\Local\Android\Sdk\cmdline-tools\latest\bin\sdkmanager --install "cmdline-tools;latest"
+=======
+C:\Users\Rohit\AppData\Local\Android\Sdk\cmdline-tools\latest\bin\sdkmanager --install "cmdline-tools;latest"
+>>>>>>> 3a5c1bae57ba00f88c92191a0c772d7e455568b7
